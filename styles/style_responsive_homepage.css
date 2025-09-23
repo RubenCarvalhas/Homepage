@@ -5,7 +5,7 @@
 
 
 /* MOBILE */
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 853px) {
 
   .top-nav {
     justify-content: space-between;
@@ -186,6 +186,17 @@
     margin-bottom: 10px;
   }
 
+}
+
+@media screen and (min-width:912px) {
+
+    .logos{
+        margin-top: 120px;
+    }
+
+    .main-section{
+        margin-top: 120px;
+    }
 }
 
 
