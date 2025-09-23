@@ -48,7 +48,12 @@ html, body {
     border-radius: 30px;
     padding: 10px 20px;
     cursor: pointer;
+
+    /* fix alinhamento */
+    margin-left: auto;
+    display: block;
 }
+
 
 .right-button button {
     background: #e91e63;
@@ -58,6 +63,16 @@ html, body {
     border-radius: 30px;
     padding: 10px 20px;
     cursor: pointer;  
+}
+
+.nav-button {
+    background: #e91e63;
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
 

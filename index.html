@@ -4,21 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/style_responsive_homepage.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <title>Vinnie Computers</title>
 </head>
 <body>
-    
+
 <div class="header">
-   <div class="top-nav">
-        <ul>
+<div class="top-nav">
+    <div class="nav-left">
+        <ul class="nav-links">
             <li><a href="#">HOME</a></li>
             <li><a href="further_pages/about.html">ABOUT US</a></li>
             <li><a href="#">PRICE TABLE</a></li>
             <li><a href="#">ASSISTANCE</a></li>
+
+            <!-- Botão que só aparece no mobile -->
+            <li class="menu-button">
+                <button onclick="location.href='further_pages/contact_us.html'" type="button">Contact us</button>
+            </li>
+
+            <li class="close-menu" onclick="toggleMenu()">✕</li>
         </ul>
-        <button onclick="location.href='further_pages/contact_us.html'" type="button">Contact us</button>
-   </div>
+    </div>
+
+    <!-- Botão de desktop à direita -->
+    <button onclick="location.href='further_pages/contact_us.html'" type="button" class="nav-button">Contact us</button>
+
+    <!-- Hamburger button -->
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
 
    <div class="main-content">
       <h1 class="main-title">Welcome to Vinnie Computers</h1>
@@ -59,9 +79,6 @@
         <img src="images/samtron.png" alt="samtron">
         <img src="images/sony.png" alt="sony">
     </div>
-
-    
-
   </div>
 
   <div class="main-section">
@@ -85,6 +102,14 @@
 <script>
   var copy = document.querySelector('.logos-slide').cloneNode(true);
   document.querySelector('.logos').appendChild(copy);
+</script>
+
+<script>
+function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+}
+
 </script>
 </body>
 </html>
