@@ -5,7 +5,7 @@
 
 
 /* MOBILE */
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 928px) {
 
   .top-nav {
     justify-content: space-between;
@@ -13,7 +13,6 @@
     position: relative;
   }
 
-  /* Hamburger visível no mobile */
   .hamburger {
     display: flex;
     flex-direction: column;
