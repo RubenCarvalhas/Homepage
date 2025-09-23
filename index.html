@@ -14,7 +14,7 @@
 <div class="top-nav">
     <div class="nav-left">
         <ul class="nav-links">
-            <li><a href="#">HOME</a></li>
+            <li><a href="#"  class="active">HOME</a></li>
             <li><a href="further_pages/about.html">ABOUT US</a></li>
             <li><a href="#">PRICE TABLE</a></li>
             <li><a href="#">ASSISTANCE</a></li>
@@ -109,6 +109,15 @@ function toggleMenu() {
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('active');
 }
+
+</script>
+
+<script>
+  document.querySelectorAll('.nav-links a').forEach(link => {
+  if (link.href === window.location.href) {
+    link.classList.add('active');
+  }
+});
 
 </script>
 </body>

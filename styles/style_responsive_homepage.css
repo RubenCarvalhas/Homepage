@@ -48,6 +48,14 @@
     z-index: 9999;
   }
 
+
+    .nav-links li a.active {
+    background-color: #031a6e; /* darker blue highlight */
+    padding: 8px 14px;
+    border-radius: 6px;
+    }
+
+
       .nav-links.active .menu-button {
         display: block !important;
     }
@@ -141,6 +149,15 @@
   .right-paragraph {
     font-size: 14px;
   }
+
+.top-nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 10px 0 0 0; /* empurra os links pra baixo */
+}
+
+
 
   .top-nav ul li {
     margin: 0 8px;
