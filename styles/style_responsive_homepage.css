@@ -236,3 +236,101 @@
 		margin-top: 120px;
 	}
 }
+
+@media screen and (max-width: 850px){
+	.contact-info{
+		font-size: 15px;
+		margin-left: 20px !important;
+	}
+
+	#map{
+		margin-top: -400px;
+		margin-left: 15px !important;
+	}
+}
+
+@media screen and (max-width: 750px) {
+    .contact-content {
+		margin-left: 20px;
+        display: flex;
+        flex-direction: column; /* garante ordem vertical */
+        align-items: left; /* opcional: centra os blocos horizontalmente */
+    }
+
+    #map {
+        display: block; /* remove flex-end */
+        margin-top: 20px;
+        width: 100%; /* ocupa a largura disponível */
+        max-width: 600px; /* controla tamanho do mapa */
+    }
+
+    #map iframe {
+        width: 100%;
+        height: 400px; /* ajusta conforme precisares */
+        border: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+	.contact-content{
+		margin-left: 20px;
+	}
+}
+
+@media screen and (max-width: 778px) {
+    .contact-content {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column; /* ordem vertical */
+        align-items: flex-start; /* alinha tudo à esquerda */
+    }
+
+    #map {
+        display: block;
+        margin-top: 20px;
+        width: 100%;
+        max-width: 600px; /* controla o tamanho do mapa */
+        margin-left: 0; /* alinhado à esquerda */
+        margin-right: auto;
+    }
+
+    #map iframe {
+        width: 100%;
+        height: 400px;
+        border: 0;
+    }
+}
+
+@media screen and (max-width: 1522px) {
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* tudo alinhado à esquerda */
+        gap: 20px; /* adiciona espaço entre cada bloco */
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .contact-info > div {
+        margin-bottom: 15px; /* espaço extra entre endereço, telefone e email */
+    }
+
+    #map {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 0 20px 0; /* margem inferior */
+    }
+
+    #map iframe {
+        width: 100%;
+        height: 400px;
+        border: 0;
+    }
+}
+
+@media  screen and (max-width: 912px) {
+	.contact-content{
+		font-size: 30px;
+	}
+}
+
