@@ -181,9 +181,8 @@
 		white-space: nowrap;
 	}
 
-	.logos-slide img {
-		height: 50px;
-		margin: 0 20px;
+	.logos-slide{
+		animation: slide 60s linear infinite	
 	}
 
 	.logos:before,
