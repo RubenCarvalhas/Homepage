@@ -97,14 +97,15 @@
 	}
 
 	.nav-links.active .menu-button {
-		display: block;
-		position: absolute;
-		bottom: 20px;
-		left: 50%;
-		transform: translateX(-50%);
-		width: 80%;
-		text-align: center;
-	}
+    display: block !important;
+    position: fixed; /* fixa no ecrã */
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+    z-index: 10000; /* garante que fica acima de tudo */
+}
 
 	.nav-links.active .menu-button button {
 		width: 100%;
