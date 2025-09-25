@@ -33,22 +33,25 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-top: 60px;
+        width: 100%;
+        margin: 60px auto 0 auto;
+        padding: 0 15px; 
     }
 
     .what-we-do {
         order: 1;
-        max-width: 100%;
-        width: 90%;
-        margin-bottom: 20px;
-        margin-left: 20px;
+        width: 100%;
+        max-width: 400px; 
+        margin: 0 auto 20px auto; 
     }
 
+
     .final-image {
-        order: 2; 
-        width: 90%;
-        margin-top: 90px;
-        margin-left: 40px;
+        order: 2;
+        width: 100%;
+        max-width: 400px;
+        margin: 20px auto 0 auto; 
+        margin-left: -20px;
     }
 
     .what-we-do-title {
@@ -58,7 +61,6 @@
 
     .what-we-do-content {
         font-size: 20px;
-        margin-left: 20px;
     }
 
     .what-we-do-section img {
@@ -404,14 +406,14 @@
     }
 
     .what-we-do {
-        order: 2;
+        order: 1; /* texto à esquerda */
         flex: 1 1 45%;
         max-width: 500px;
         font-size: 20px;
     }
 
     .final-image {
-        order: 1;
+        order: 2; /* imagem à direita */
         flex: 1 1 45%;
         display: flex;
         justify-content: flex-end;
