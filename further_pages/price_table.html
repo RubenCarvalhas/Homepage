@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/style_responsive_homepage.css">
+    <link rel="stylesheet" href="../styles/services_styles.css">
+    <title>Price Table</title>
+</head>
+<body>
+    
+
+<div class="header">
+<div class="top-nav">
+    <div class="nav-left">
+        <ul class="nav-links">
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="price_table.html" class="active">SERVICES</a></li>
+
+            <!-- Botão que só aparece no mobile -->
+            <li class="menu-button">
+                <button onclick="location.href='contact_us.html'" type="button">Contact us</button>
+            </li>
+
+            <li class="close-menu" onclick="toggleMenu()">✕</li>
+        </ul>
+    </div>
+
+    <!-- Botão de desktop à direita -->
+    <button onclick="location.href=' contact_us.html'" type="button" class="nav-button">Contact us</button>
+
+    <!-- Hamburger button -->
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+
+<div class="assistance-section">
+    <div class="assistance-title">
+        <h1>Services</h1>
+    </div>
+    <div class="assistance-subtitle">
+        <p>Our team is ready to help you with any technical issue or inquiry. Explore our support options below.</p>
+    </div>
+
+    <div class="assistance-cards">
+        <div class="card">
+            <h2>Tech Support</h2>
+            <ul class="support-list">
+                <li>Laptop replacement</li>
+                <li>PC upgrades</li>
+                <li>Software and hardware guidance</li>
+                <li>Format Devices</li>
+                <li>Backup Data</li>
+            </ul>
+            <button style="cursor:default;">Just bring your device!</button>
+        </div>
+
+
+
+        <div class="card">
+            <h2>Price Table</h2>
+            <ul class="support-list">
+                <li><a href="https://www.vinnie.pt/tabelas/PVPC.pdf">Components Table</a></li>
+                <li><a href="https://www.vinnie.pt/tabelas/Pcs%2001.pdf">Computers Table</a></li>
+                <li><a href="https://www.vinnie.pt/tabelas/S%C3%B3%20Torre.pdf">Cases Table</a></li>
+                <li>For laptops, reach out to us!</li>
+            </ul>
+            <button onclick="location.href='contact_us.html'">Contact Now</button>
+        </div>
+    </div>
+</div>
+
+<script>
+  var copy = document.querySelector('.logos-slide').cloneNode(true);
+  document.querySelector('.logos').appendChild(copy);
+</script>
+
+<script>
+function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+}
+
+</script>
+
+<script>
+  document.querySelectorAll('.nav-links a').forEach(link => {
+  if (link.href === window.location.href) {
+    link.classList.add('active');
+  }
+});
+
+</script>
+
+</body>
+</html>

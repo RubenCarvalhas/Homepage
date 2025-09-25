@@ -1,0 +1,142 @@
+.assistance-section {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.assistance-title h1 {
+    font-size: 48px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.assistance-subtitle {
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: #ccc;
+}
+
+/* CARDS */
+.assistance-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #031963;
+    padding: 30px 20px;
+    border-radius: 15px;
+    flex: 1 1 250px;
+    max-width: 300px;
+    color: white;
+    text-align: center;
+    display: flex;             /* Novo: torna o card um flex container */
+    flex-direction: column;    /* Empilha os elementos verticalmente */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card i {
+    font-size: 40px;
+    color: #e60073;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.support-list {
+    list-style: disc;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ccc;
+    flex-grow: 1;              /* Novo: ocupa o máximo espaço possível */
+}
+
+
+.support-list li{
+    padding: 10px;
+}
+
+.card:hover .support-list li {
+    color: white;
+}
+
+.support-list li a {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s;
+}
+
+.support-list li a:hover {
+    color: white;
+}
+
+
+.card button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #e60073;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: auto;          /* Novo: empurra o botão para o fundo do card */
+}
+
+.card button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(230,0,115,0.7);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* RESPONSIVO */
+@media screen and (max-width: 768px) {
+    .assistance-title h1 {
+        font-size: 36px;
+    }
+    .assistance-subtitle {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .card p, .support-list {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .assistance-title h1 {
+        font-size: 28px;
+    }
+    .assistance-subtitle {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .assistance-cards {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .support-list {
+        padding-left: 15px;
+        font-size: 13px;
+    }
+}
