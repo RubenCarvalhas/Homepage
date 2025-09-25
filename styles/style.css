@@ -73,6 +73,12 @@ html, body {
     border-radius: 30px;
     padding: 10px 20px;
     cursor: pointer;
+     transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+    box-shadow: 0 0 15px 4px rgba(230, 0, 115, 0.7); 
+    transform: scale(1.05);
 }
 
 
@@ -233,4 +239,141 @@ html, body {
     width: 1000px;
     height: 500px;
     border: 0;
+}
+
+.about-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    color: white;
+    width: 100%;
+}
+
+
+.left-side-section {
+    max-width: 500px;
+}
+
+.about-title {
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-size: 10;
+    letter-spacing: 10px;
+}
+
+.about-us {
+    font-size: 25px;
+}
+
+.right-side-section img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+
+.about-us button{
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.about-us button:hover {
+    box-shadow: 0 0 15px 4px rgba(230, 0, 115, 0.7); 
+    transform: scale(1.05); 
+}
+
+.what-we-do-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 120px;
+    color: white;
+    width: 100%;
+}
+
+.what-we-do {
+    max-width: 500px;
+}
+
+.what-we-do-title{
+    margin-bottom: 20px;
+    font-size: 10;
+    letter-spacing: 10px;
+}
+
+.what-we-do-content{
+    font-size: 25px;
+}
+
+
+.what-we-do-section img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: -90px;
+}
+
+.curious-section {
+    display: flex;
+    flex-direction: row;       
+    align-items: center;       
+    justify-content: center; 
+    gap: 60px;
+    margin-top: 100px;
+}
+
+.curious-section h1 {
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+} 
+
+.curious-section button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    background-color: #e60073;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.curious-section button:hover {
+    box-shadow: 0 0 15px 4px rgba(230, 0, 115, 0.7);
+    transform: scale(1.05);
+}
+
+.bottom-section {
+    margin-top: 100px;
+    background-color: #031963;
+    padding: 40px 0;
+    width: 100vw;                     
+    margin-left: calc(-50vw + 50%);   
+}
+
+.history-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.history-title h1 {
+    font-size: 24px; 
+    letter-spacing: 10px;
+    text-align: center;
+    color: white;
+}
+
+.history-describing{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 1000px;
 }

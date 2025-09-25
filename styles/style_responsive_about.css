@@ -1,0 +1,426 @@
+@media screen and (max-width: 430px) {
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .left-side-section,
+    .right-side-section {
+        width: 100%;
+    }
+
+    .right-side-section img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .about-us button {
+        margin-top: 15px;
+    }
+
+    .about-us{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .what-we-do-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .what-we-do {
+        order: 1;
+        max-width: 100%;
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .final-image {
+        order: 2; 
+        width: 90%;
+        margin-top: 90px;
+        margin-left: 40px;
+    }
+
+    .what-we-do-title {
+        margin-bottom: 15px;
+        letter-spacing: 5px;
+    }
+
+    .what-we-do-content {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .what-we-do-section img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .bottom-section {
+        padding: 20px 0;
+    }
+
+
+    .curious-section {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;    
+        text-align: center;
+        gap: 15px;           
+        max-width: calc(100% - 40px); /* evita sobreposição com o side-nav */
+        margin: 0 auto;        
+        padding: 0 20px;      
+        margin-top: 50px;      
+    }
+
+    .curious-section h1 {
+        font-size: 22px;
+        line-height: 1.2;
+        margin-left: 20px;
+    }
+
+    .curious-section button {
+        font-size: 16px;
+        padding: 10px 20px;
+        margin-left: 10px;
+    }
+
+    .history-describing {
+        margin-top: 20px !important;
+        max-width: calc(100% - 200px); 
+        font-size: 14px;
+        margin: 0 auto;
+        padding: 0 20px; 
+    }
+
+
+    .history-title h1 {
+        font-size: 20px;
+        letter-spacing: 5px;
+        
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px; 
+    }
+
+    .left-side-section,
+    .right-side-section {
+        width: 100%;
+        max-width: 700px; 
+    }
+
+    .right-side-section img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 10px; 
+    }
+
+    .about-us p {
+        font-size: 18px; 
+        margin-bottom: 15px;
+    }
+
+    .about-us button {
+        margin-top: 15px;
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+
+    .about-title h1 {
+        font-size: 28px;
+        letter-spacing: 5px;
+        margin-bottom: 15px;
+    }
+
+     .what-we-do-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .what-we-do {
+        order: 1;
+        max-width: 100%;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .final-image {
+        order: 2;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .what-we-do-title {
+        font-size: 28px;
+        letter-spacing: 5px;
+        margin-bottom: 15px;
+    }
+
+    .what-we-do-content p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .what-we-do-section img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+
+    .history-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .history-title h1 {
+        font-size: 28px;
+        letter-spacing: 5px;
+        margin-bottom: 15px;
+    }
+
+    .history-describing {
+        max-width: 90%;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .curious-section h1{
+        font-size: 20px;
+    }
+
+} 
+
+
+
+@media screen and (max-width: 912px) {
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px; 
+    }
+
+    .left-side-section,
+    .right-side-section {
+        width: 100%;
+        max-width: 700px; 
+    }
+
+    .right-side-section img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 10px; 
+    }
+
+    .about-us p {
+        font-size: 18px; 
+        margin-bottom: 15px;
+    }
+
+    .about-us button {
+        margin-top: 15px;
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+
+    .about-title h1 {
+        font-size: 28px;
+        letter-spacing: 5px;
+        margin-bottom: 15px;
+    }
+
+     .what-we-do-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .what-we-do {
+        order: 1;
+        max-width: 100%;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .final-image {
+        order: 2;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .what-we-do-title {
+        font-size: 28px;
+        letter-spacing: 5px;
+        margin-bottom: 15px;
+    }
+
+    .what-we-do-content p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .what-we-do-section img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+
+    .history-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+        margin-left: 40px;
+    }
+
+    .history-title h1 {
+        font-size: 28px;
+        letter-spacing: 5px;
+        margin-bottom: 15px;
+    }
+
+    .history-describing {
+        max-width: 90%;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+     .history-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+        margin-left: 40px;
+    }
+
+    .history-title h1 {
+        font-size: 28px;
+        letter-spacing: 5px;
+        margin-bottom: 15px;
+    }
+
+    .history-describing {
+        max-width: 90%;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0 auto;
+    }
+    .about-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start; 
+        flex-wrap: wrap;
+        padding-left: 40px; 
+        padding-right: 20px;
+        gap: 70px;
+    }
+
+    .left-side-section {
+        order: 1;
+        flex: 1 1 45%;
+        min-width: 250px;
+    }
+
+    .right-side-section {
+        order: 2;
+        flex: 1 1 45%;
+        display: flex;
+        justify-content: flex-start;
+        min-width: 250px;
+    }
+
+    .right-side-section img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .what-we-do-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding-left: 80px; 
+        padding-right: 20px;
+        gap: 70px;
+    }
+
+    .what-we-do {
+        order: 2;
+        flex: 1 1 45%;
+        max-width: 500px;
+        font-size: 20px;
+    }
+
+    .final-image {
+        order: 1;
+        flex: 1 1 45%;
+        display: flex;
+        justify-content: flex-end;
+        min-width: 250px;
+    }
+
+    .final-image img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+}
